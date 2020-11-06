@@ -1,12 +1,15 @@
 '''
 插入排序
 时间复杂度: O(n^2)或者c * n^2
+
+需要排序的数叫做关键词
 '''
 
 import numpy as np
 
 
 def insert_sort():
+    # 随机获取100个数
     arr = np.random.randint(1, 1000, size=100)
     print(arr)
     start = 1
